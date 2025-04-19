@@ -10,7 +10,7 @@ app.get('/', async (req, res) => {
       <html>
         <head><title>Number Viewer</title></head>
         <body>
-          <h1>Number from repo2</h1>
+          <h1>Number from test_number_generator</h1>
           <p data-testid="random-number">${response.data}</p>
         </body>
       </html>
